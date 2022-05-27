@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>60</x>
       <y>30</y>
-      <width>121</width>
+      <width>111</width>
       <height>21</height>
      </rect>
     </property>
@@ -37,7 +37,7 @@
    <widget class="QPushButton" name="browse_btn">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>190</x>
       <y>30</y>
       <width>121</width>
       <height>21</height>
@@ -57,17 +57,17 @@
      <rect>
       <x>30</x>
       <y>60</y>
-      <width>261</width>
-      <height>192</height>
+      <width>281</width>
+      <height>191</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_29">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>330</x>
       <y>110</y>
-      <width>91</width>
+      <width>81</width>
       <height>41</height>
      </rect>
     </property>
@@ -130,7 +130,7 @@
      <rect>
       <x>660</x>
       <y>20</y>
-      <width>161</width>
+      <width>151</width>
       <height>31</height>
      </rect>
     </property>
@@ -153,7 +153,7 @@
    <widget class="QPushButton" name="scale_btn">
     <property name="geometry">
      <rect>
-      <x>830</x>
+      <x>820</x>
       <y>20</y>
       <width>131</width>
       <height>31</height>
@@ -173,17 +173,17 @@
      <rect>
       <x>430</x>
       <y>60</y>
-      <width>531</width>
-      <height>192</height>
+      <width>521</width>
+      <height>191</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>30</x>
       <y>270</y>
-      <width>211</width>
+      <width>181</width>
       <height>31</height>
      </rect>
     </property>
@@ -197,13 +197,16 @@
     <property name="text">
      <string>Select the Target Column</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QPushButton" name="submit_btn">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>220</x>
       <y>270</y>
-      <width>121</width>
+      <width>91</width>
       <height>31</height>
      </rect>
     </property>
@@ -219,9 +222,9 @@
    <widget class="QLabel" name="target_col">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>320</x>
       <y>160</y>
-      <width>91</width>
+      <width>101</width>
       <height>41</height>
      </rect>
     </property>
@@ -239,6 +242,190 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Convert categorical to</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cat_column">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="convert_btn">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>320</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Convert</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>270</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop Column</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="drop_btn">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>270</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Drop</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="drop_column">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>270</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="empty_column">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>320</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Empty Column</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fill_mean_btn">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>320</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fill Mean</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fillna_btn">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>320</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fill 0</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>300</y>
+      <width>281</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -246,7 +433,7 @@
      <x>0</x>
      <y>0</y>
      <width>978</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

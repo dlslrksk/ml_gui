@@ -39,7 +39,7 @@ class data_:
 		return df.shape 
 
 	def fillna(self,df,column):
-		df[column].fillna("Uknown",inplace=True)
+		df[column].fillna("0",inplace=True)
 
 		return df[column]
 
